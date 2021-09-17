@@ -34,7 +34,12 @@ class MainActivity : AppCompatActivity() {
                 MainButton(name = "TEST") {
                     openActivity(TestActivity::class.java)
                 }
-                MainButton("Jetpack Compose basics Codelab") { openActivity(BasicsCodelab::class.java) }
+                MainButton("Jetpack Compose basics Codelab") {
+                    openActivity(BasicsCodelab::class.java)
+                }
+                MainButton("Layout Jetpack Compose") {
+                    openActivity(LayoutsInJetpackCompose::class.java)
+                }
             }
         }
     }
